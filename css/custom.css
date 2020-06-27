@@ -1,0 +1,18 @@
+.has-background-image {
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../img/cover.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.has-background-image img {
+    width: 15em;
+}
+
+.is-resized {
+    object-fit: contain;
+}
+
+.is-covered {
+    object-fit: cover;
+}
